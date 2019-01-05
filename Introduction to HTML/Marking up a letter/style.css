@@ -3,7 +3,7 @@ body {
   margin: 0 auto;
 }
 
-.address_from  {
+.address-from  {
   text-align: right;
 }
 
@@ -15,10 +15,18 @@ h2 {
   font-size: 1.3em;
 }
 
-p,ul,ol,dl,address {
+p,
+ul,
+ol,
+dl,
+address {
   font-size: 1.1em;
 }
 
-p, li, dd, dt, address {
+p, 
+li, 
+dd, 
+dt, 
+address {
   line-height: 1.5;
 }
