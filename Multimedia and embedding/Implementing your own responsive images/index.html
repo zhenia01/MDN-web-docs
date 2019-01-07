@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Not responsive demo</title>
+    <style>
+      html {
+        font-family: sans-serif;
+        background-color: gray;
+      }
 
+      body {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+      }
+
+      header {
+        background: url(https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/6/6c/12-sunrise-picture.jpg/revision/latest?cb=20180302124941)
+          no-repeat center;
+        height: 200px;
+      }
+
+      section {
+        padding: 20px;
+      }
+
+      p {
+        line-height: 1.5;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header></header>
+
+    <main>
+      <section>
+        <h1>My website</h1>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget
+          venenatis ligula. Ut lacinia at dolor vitae pulvinar. Aliquam pretium
+          dignissim eros. Integer faucibus, dui non aliquet bibendum, lectus
+          orci lobortis odio, ornare porttitor est tellus eget velit. Nulla eros
+          elit, malesuada id neque vel, viverra vehicula neque. Nullam auctor
+          turpis non leo iaculis finibus. Quisque blandit arcu venenatis libero
+          tempor, ac pulvinar ligula dapibus.
+        </p>
+
+        <picture>
+          <source media="(max-width: 1119px)" srcset="header_focus.jpg" />
+          <source media="(min-width: 1200px)" srcset="header.jpg" />
+          <img src="header.jpg" alt="landscape" />
+        </picture>
+
+        <p>
+          Suspendisse potenti. Ut in luctus eros. Mauris pulvinar vehicula
+          aliquet. Etiam imperdiet eleifend luctus. Duis ut justo nec eros
+          ornare consectetur. Vestibulum convallis condimentum varius. Maecenas
+          rutrum porta varius. Phasellus volutpat sem id sagittis luctus. Morbi
+          vitae quam vitae nisi iaculis dignissim.
+        </p>
+
+        <img
+          srcset="high.jpg 1200w, medium.jpg 800w, low.jpg 600w"
+          sizes="(max-width: 600px) 550px, (max-width: 800px) 750px, 1150px"
+          src="high.jpg"
+          alt="fancy bird"
+        />
+
+        <img
+          width="1200px"
+          srcset="high.jpg, medium.jpg 0.666x, low.jpg 0.5x"
+          src="low.jpg"
+          alt="fancy bird"
+        />
+      </section>
+    </main>
+  </body>
+</html>
