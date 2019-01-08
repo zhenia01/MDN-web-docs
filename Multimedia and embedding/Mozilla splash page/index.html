@@ -89,7 +89,14 @@
 
     <main>
       <article>
-        <!-- insert iframe from youtube -->
+        <iframe
+          width="400"
+          height="480"
+          src="https://www.youtube.com/embed/ojcNcvb1olg"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
 
         <h2>Rocking the free web</h2>
 
@@ -112,11 +119,50 @@
       </article>
 
       <div class="further-info">
-        <!-- insert images with srcsets and sizes -->
-        <a href="https://www.mozilla.org/en-US/firefox/new/"> <img /> </a>
-        <a href="https://www.mozilla.org/"> <img /> </a>
-        <a href="https://addons.mozilla.org/"> <img /> </a>
-        <a href="https://developer.mozilla.org/en-US/"> <img /> </a>
+        <a href="https://www.mozilla.org/en-US/firefox/new/">
+          <img
+            srcset="
+              images/firefoxlogo400.png 400w,
+              images/firefoxlogo120.png 120w
+            "
+            sizes="
+                        (max-width: 480px) 120px, 
+                        400px"
+            src="images/firefoxlogo400.png"
+            alt="firefox log"
+          />
+        </a>
+        <a href="https://www.mozilla.org/">
+          <img
+            srcset="
+              images/mozilladinosaurhead400.png 400w,
+              images/mozilladinosaurhead120.png 120w
+            "
+            sizes="
+                        (max-width: 480px) 120px, 
+                        400px
+                      "
+            src="images/mozilladinosaurhead400.png"
+            alt="dinosaur head"
+          />
+        </a>
+        <a href="https://addons.mozilla.org/">
+          <img
+            srcset="
+              images/firefoxaddons400.jpg 400w,
+              images/firefoxaddons120.jpg 120w
+            "
+            sizes="
+                        (max-width: 480px) 120px, 
+                        400px
+                      "
+            src="images/firefoxaddons400.jpg"
+            alt="firefox add-ons"
+          />
+        </a>
+        <a href="https://developer.mozilla.org/en-US/">
+          <img src="images/mdn.svg" alt="mdn logo" />
+        </a>
         <div class="clearfix"></div>
       </div>
 

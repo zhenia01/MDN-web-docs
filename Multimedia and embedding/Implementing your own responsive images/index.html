@@ -58,13 +58,10 @@
         <picture>
           <source
             media="(max-width: 1119px)"
-            srcset="./images/castle_focus480.jpg"
+            srcset="images/castle_focus480.jpg"
           />
-          <source
-            media="(min-width: 1200px)"
-            srcset="./images/castle1200.jpg"
-          />
-          <img src="./images/castle1200.jpg" alt="landscape" />
+          <source media="(min-width: 1200px)" srcset="images/castle1200.jpg" />
+          <img src="images/castle1200.jpg" alt="landscape" />
         </picture>
 
         <p>
@@ -77,23 +74,26 @@
 
         <img
           srcset="
-            ./images/bird1200.jpg 1200w,
-            ./images/bird800.jpg   800w,
-            ./images/bird600.jpg   600w
+            images/bird1200.jpg 1200w,
+            images/bird800.jpg   800w,
+            images/bird600.jpg   600w
           "
-          sizes="(max-width: 600px) 550px, (max-width: 800px) 750px, 1150px"
-          src="./images/bird1200.jpg"
+          sizes="
+            (max-width: 600px) 550px, 
+            (max-width: 800px) 750px, 
+            1150px"
+          src="images/bird1200.jpg"
           alt="fancy bird"
         />
 
         <img
           width="1200px"
           srcset="
-            ./images/bird1200.jpg,
-            ./images/bird800.jpg  0.666x,
-            ./images/bird600.jpg  0.5x
+            images/bird1200.jpg,
+            images/bird800.jpg  0.666x,
+            images/bird600.jpg  0.5x
           "
-          src="./images/bird600.jpg"
+          src="images/bird600.jpg"
           alt="fancy bird"
         />
       </section>
