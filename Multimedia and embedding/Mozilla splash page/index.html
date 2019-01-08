@@ -91,7 +91,7 @@
       <article>
         <iframe
           width="400"
-          height="480"
+          height="300"
           src="https://www.youtube.com/embed/ojcNcvb1olg"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -140,8 +140,7 @@
             "
             sizes="
                         (max-width: 480px) 120px, 
-                        400px
-                      "
+                        400px"
             src="images/mozilladinosaurhead400.png"
             alt="dinosaur head"
           />
@@ -154,8 +153,7 @@
             "
             sizes="
                         (max-width: 480px) 120px, 
-                        400px
-                      "
+                        400px"
             src="images/firefoxaddons400.jpg"
             alt="firefox add-ons"
           />
@@ -166,7 +164,13 @@
         <div class="clearfix"></div>
       </div>
 
-      <div class="red-panda"><!-- insert picture element --></div>
+      <div class="red-panda">
+        <picture>
+          <source media="(max-width: 600px)" srcset="images/redpanda_focus600.jpg" />
+          <source media="(min-width: 601px)" srcset="images/redpanda1600.jpg"/>
+          <img src="images/redpanda1600.jpg" alt="red panda">
+        </picture>
+    </div>
     </main>
   </body>
 </html>
