@@ -1,102 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Not responsive demo</title>
-    <style>
-      html {
-        font-family: sans-serif;
-        background-color: gray;
-      }
 
-      body {
-        width: 100%;
-        max-width: 1200px;
-        margin: 0 auto;
-        background-color: white;
-      }
+<head>
+  <meta charset="utf-8">
+  <title>Not responsive demo</title>
+  <style>
+    html {
+      font-family: sans-serif;
+      background-color: gray;
+    }
 
-      header {
-        background: url(https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/6/6c/12-sunrise-picture.jpg/revision/latest?cb=20180302124941)
-          no-repeat center;
-        height: 200px;
-      }
+    body {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: white;
+    }
 
-      section {
-        padding: 20px;
-      }
+    header {
+      background: url(https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/6/6c/12-sunrise-picture.jpg/revision/latest?cb=20180302124941) no-repeat center;
+      height: 200px;
+    }
 
-      p {
-        line-height: 1.5;
-      }
+    section {
+      padding: 20px;
+    }
 
-      img {
-        display: block;
-        margin: 0 auto;
-        max-width: 100%;
-      }
-    </style>
-  </head>
+    p {
+      line-height: 1.5;
+    }
 
-  <body>
-    <header></header>
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  </style>
+</head>
 
-    <main>
-      <section>
-        <h1>My website</h1>
+<body>
+  <header></header>
 
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget
-          venenatis ligula. Ut lacinia at dolor vitae pulvinar. Aliquam pretium
-          dignissim eros. Integer faucibus, dui non aliquet bibendum, lectus
-          orci lobortis odio, ornare porttitor est tellus eget velit. Nulla eros
-          elit, malesuada id neque vel, viverra vehicula neque. Nullam auctor
-          turpis non leo iaculis finibus. Quisque blandit arcu venenatis libero
-          tempor, ac pulvinar ligula dapibus.
-        </p>
+  <main>
+    <section>
+      <h1>My website</h1>
 
-        <picture>
-          <source
-            media="(max-width: 1119px)"
-            srcset="images/castle_focus480.jpg"
-          />
-          <source media="(min-width: 1200px)" srcset="images/castle1200.jpg" />
-          <img src="images/castle1200.jpg" alt="landscape" />
-        </picture>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget
+        venenatis ligula. Ut lacinia at dolor vitae pulvinar. Aliquam pretium
+        dignissim eros. Integer faucibus, dui non aliquet bibendum, lectus
+        orci lobortis odio, ornare porttitor est tellus eget velit. Nulla eros
+        elit, malesuada id neque vel, viverra vehicula neque. Nullam auctor
+        turpis non leo iaculis finibus. Quisque blandit arcu venenatis libero
+        tempor, ac pulvinar ligula dapibus.
+      </p>
 
-        <p>
-          Suspendisse potenti. Ut in luctus eros. Mauris pulvinar vehicula
-          aliquet. Etiam imperdiet eleifend luctus. Duis ut justo nec eros
-          ornare consectetur. Vestibulum convallis condimentum varius. Maecenas
-          rutrum porta varius. Phasellus volutpat sem id sagittis luctus. Morbi
-          vitae quam vitae nisi iaculis dignissim.
-        </p>
+      <picture>
+        <source media="(max-width: 1119px)" srcset="images/castle_focus480.jpg">
+        <source media="(min-width: 1200px)" srcset="images/castle1200.jpg">
+        <img src="images/castle1200.jpg" alt="landscape">
+      </picture>
 
-        <img
-          srcset="
+      <p>
+        Suspendisse potenti. Ut in luctus eros. Mauris pulvinar vehicula
+        aliquet. Etiam imperdiet eleifend luctus. Duis ut justo nec eros
+        ornare consectetur. Vestibulum convallis condimentum varius. Maecenas
+        rutrum porta varius. Phasellus volutpat sem id sagittis luctus. Morbi
+        vitae quam vitae nisi iaculis dignissim.
+      </p>
+
+      <img srcset="
             images/bird1200.jpg 1200w,
             images/bird800.jpg   800w,
             images/bird600.jpg   600w
-          "
-          sizes="
+          " sizes="
             (max-width: 600px) 550px, 
             (max-width: 800px) 750px, 
-            1150px"
-          src="images/bird1200.jpg"
-          alt="fancy bird"
-        />
+            1150px" src="images/bird1200.jpg" alt="fancy bird">
 
-        <img
-          width="1200px"
-          srcset="
+      <img width="1200px" srcset="
             images/bird1200.jpg,
             images/bird800.jpg  0.666x,
             images/bird600.jpg  0.5x
-          "
-          src="images/bird600.jpg"
-          alt="fancy bird"
-        />
-      </section>
-    </main>
-  </body>
+          " src="images/bird600.jpg" alt="fancy bird">
+    </section>
+  </main>
+</body>
+
 </html>
