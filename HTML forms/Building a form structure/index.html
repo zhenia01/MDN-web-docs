@@ -43,7 +43,33 @@
         <input type="password" name="password" id="password">
       </p>
     </section>
-    <button type="submit">Validate the payment</button>
+    <section>
+      <h2>Payment information</h2>
+      <p>
+        <label for="card-type">
+          <span>Card type:</span>
+        </label>
+        <select id="card-type" name="card-type">
+          <option value="visa">Visa</option>
+          <option value="mc">Master card</option>
+        </select>
+      </p>
+      <p>
+        <label for="card-num">
+          <span>Card number: </span>
+          <strong><abbr title="required">*</abbr></strong>
+        </label>
+        <input type="number" name="card-num" id="card-num">
+      </p>
+      <p>
+        <label for="date">
+          <span>Expiration date: </span>
+          <strong><abbr title="required">*</abbr></strong>
+        </label>
+        <input type="date" name="date" id="date">
+      </p>
+    </section>
+    <p><button type="submit">Validate the payment</button></p>
   </form>
 </body>
 
