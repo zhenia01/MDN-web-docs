@@ -8,9 +8,42 @@
 </head>
 
 <body>
-  <form>
+  <form action="https://www.w3schools.com/action_page.php" method="POST">
     <h1>Payment form</h1>
     <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+    <section>
+      <h2>Contact information</h2>
+      <fieldset>
+        <legend>Title</legend>
+        <input type="radio" name="title" id="mister" value="M.">
+        <label for="mister">Mister</label>
+        <br>
+        <input type="radio" name="title" id="miss" value="Ms.">
+        <label for="miss">Miss</label>
+      </fieldset>
+      <p>
+        <label for="name">
+          <span>Name: </span>
+          <strong><abbr title="required">*</abbr></strong>
+        </label>
+        <input type="text" name="name" id="name">
+      </p>
+      <p>
+        <label for="email">
+          <span>E-mail: </span>
+          <strong><abbr title="required">*</abbr></strong>
+        </label>
+        <input type="email" name="email" id="email">
+      </p>
+      <p>
+        <label for="password">
+          <span>Password: </span>
+          <strong><abbr title="required">*</abbr></strong>
+        </label>
+        <input type="password" name="password" id="password">
+      </p>
+    </section>
+    <button type="submit">Validate the payment</button>
   </form>
 </body>
 
