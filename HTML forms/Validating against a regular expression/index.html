@@ -11,9 +11,15 @@
   <form>
     <label for="choose1">Would you prefer a banana or a cherry?</label>
     <input id="choose1" name="i_like" required pattern="banana|cherry"> <br>
+
     <label for="choose2">Type your name and surname: </label>
     <input id="choose2" name="i_like" required pattern="[A-Z][a-z]+[ ][A-Z][a-z]+"> <br>
 
+    <label for="choose3">Type full phone number in UA format +38-095-456-40-80 <br>
+      <em>delimeters can be either dash, space or none</em></label>
+    <input id="choose3" name="i_like" required pattern="[+]38[ -]*[0-9]{3}[ -]*[0-9]{3}[ -]*[0-9]{2}[ -]*[0-9]{2}"
+      value="+38-">
+    <br>
     <button>Submit</button>
   </form>
 </body>
