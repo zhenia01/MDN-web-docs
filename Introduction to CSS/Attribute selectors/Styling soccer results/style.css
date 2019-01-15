@@ -1,32 +1,32 @@
-li[] {
+li[lang="en-GB"] {
   background: url("http://mdn.github.io/learning-area/css/introduction-to-css/css-selectors/en-GB.png") 5px center no-repeat;
 }
 
-li[] {
+li[lang="de"] {
   background: url("http://mdn.github.io/learning-area/css/introduction-to-css/css-selectors/de.png") 5px center no-repeat;
 }
 
-li[] {
+li[lang="es"] {
   background: url("http://mdn.github.io/learning-area/css/introduction-to-css/css-selectors/es.png") 5px center no-repeat;
 }
 
-li[] {
+li[data-perf^="inc"] {
   background-color: rgba(0, 255, 0, 0.7);
 }
 
-li[] {
+li[data-perf^="same"] {
   background-color: rgba(0, 0, 255, 0.5);
 }
 
-li[] {
+li[data-perf^="dec"] {
   background-color: rgba(255, 0, 0, 0.7);
 }
 
-li[] {
+li[data-perf$="pro"] {
   font-weight: bold;
 }
 
-li[] {
+li[data-perf$="rel"] {
   font-style: italic;
   color: #666;
 }
