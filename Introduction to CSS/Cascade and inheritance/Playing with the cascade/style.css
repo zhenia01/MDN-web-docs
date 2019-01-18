@@ -9,6 +9,7 @@ div div li a {
   color: yellow;
 }
 
-#outer {
-  background-color: revert;
+#outer #inner a {
+  color: red;
+  background-color: initial;
 }
