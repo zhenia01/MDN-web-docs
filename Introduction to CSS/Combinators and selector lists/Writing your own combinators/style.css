@@ -3,7 +3,7 @@ ul {
   list-style-type: none;
 }
 
-  {
+ul a {
   text-decoration: none;
   display: block;
   color: black;
@@ -12,12 +12,12 @@ ul {
   margin-bottom: 10px;
 }
 
-  {
+ul a:hover {
   color: red;
   background-color: black;
 }
 
-  {
+h1+p {
   font-weight: bold;
   color: blue;
 }
