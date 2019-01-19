@@ -21,7 +21,12 @@ body {
 
 #wrapper main {
   background-color: yellow;
+  margin: 5%;
+  padding: 5%;
+  border: 60px dashed red;
+  width: 60%;
 }
 
-
-#wrapper footer {}
+#wrapper footer {
+  margin-top: 15px;
+}
