@@ -20,6 +20,11 @@ html {
   border-radius: 1.5em;
 }
 
+.card h2,
+.card p {
+  margin: 0;
+}
+
 /* header and footer */
 
 .card footer {
@@ -32,9 +37,35 @@ html {
   border-radius: 1.5em 1.5em 0 0;
 }
 
+.card footer p {
+  font-size: 1.5em;
+  line-height: 2;
+}
+
+.card footer,
+.card header {
+  height: 3em;
+  padding: 1em;
+}
+
+.card header h2 {
+  font-size: 2em;
+  line-height: 1.5;
+}
+
 /* main business card contents */
 
 .card article img {
   max-height: 100%;
   float: right;
+}
+
+.card article {
+  height: 12em;
+  background-color: rgba(0, 0, 0, 0.226);
+}
+
+.card article p {
+  padding: 1em;
+  color: whitesmoke;
 }
