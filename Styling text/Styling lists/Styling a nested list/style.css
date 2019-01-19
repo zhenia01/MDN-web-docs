@@ -1,0 +1,12 @@
+ul {
+  list-style-type: square;
+}
+
+ul li,
+ol li {
+  line-height: 1.5;
+}
+
+ol {
+  list-style-type: lower-alpha;
+}
