@@ -20,7 +20,8 @@ h2 {
   font-size: 3.2em;
 }
 
-pli {
+p,
+li {
   font-size: 1.7em;
 }
 
@@ -30,14 +31,9 @@ pli {
 
 header,
 footer {
-  background-colour: teal;
+  background-color: teal;
   height: 10em;
   padding: 2em;
-}
-
-h1,
-footer p {
-  margin: -70px;
 }
 
 h1 {
@@ -57,5 +53,6 @@ main li {
 }
 
 img {
-  float: right margin: 1.2em 2em;
+  float: right;
+  margin: 1.2em 2em;
 }
