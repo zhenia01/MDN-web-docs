@@ -5,10 +5,15 @@
 }
 
 body {
-  margin: 0 auto;
   font-family: 'Merriweather', serif;
+  font-size: 10px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  word-spacing: 0.4em;
+  margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
+
 }
 
 /* Layout */
@@ -26,6 +31,7 @@ aside {
 nav {
   float: left;
   width: 20%;
+  font-size: 1.3em;
 }
 
 footer {
@@ -35,8 +41,22 @@ footer {
 h1,
 h2 {
   font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  letter-spacing: 0.08em;
 }
 
+h1 {
+  font-size: 4em;
+}
+
+header h1 {
+  text-align: center;
+}
+
+section,
+aside {
+  font-size: 1.4em;
+}
 
 header,
 section,
@@ -46,6 +66,10 @@ footer {
   padding: 20px;
 }
 
+section h2+p {
+  text-indent: 20px;
+}
+
 /* header and footer */
 
 header,
@@ -53,5 +77,3 @@ footer {
   border-top: 5px solid #a66;
   border-bottom: 5px solid #a66;
 }
-
-/* WRITE YOUR CODE BELOW HERE */
