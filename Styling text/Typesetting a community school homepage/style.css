@@ -6,6 +6,7 @@
 
 body {
   margin: 0 auto;
+  font-family: 'Merriweather', serif;
   min-width: 1000px;
   max-width: 1400px;
 }
@@ -30,6 +31,12 @@ nav {
 footer {
   clear: both;
 }
+
+h1,
+h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
 
 header,
 section,
