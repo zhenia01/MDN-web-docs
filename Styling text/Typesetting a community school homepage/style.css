@@ -38,6 +38,28 @@ footer {
   clear: both;
 }
 
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+section h2+p {
+  text-indent: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* M */
+
 h1,
 h2 {
   font-family: 'Open Sans', sans-serif;
@@ -58,22 +80,31 @@ aside {
   font-size: 1.4em;
 }
 
-header,
-section,
-aside,
-nav,
-footer {
-  padding: 20px;
+a:hover,
+a:link,
+a:visited,
+a:focus {
+  color: #a66;
 }
 
-section h2+p {
-  text-indent: 20px;
+a:hover,
+a:focus {
+  text-decoration: none;
 }
 
-/* header and footer */
+a {
+  outline: none;
+}
 
-header,
-footer {
-  border-top: 5px solid #a66;
-  border-bottom: 5px solid #a66;
+a:active {
+  font-style: italic;
+  color: rgb(206, 108, 108);
+}
+
+a[href^="http"] {
+  background-image: url('images/ex-link.png');
+  background-size: 16px;
+  background-repeat: no-repeat;
+  padding-right: 19px;
+  background-position: 100% 0;
 }
