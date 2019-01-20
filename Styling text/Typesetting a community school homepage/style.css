@@ -28,12 +28,6 @@ aside {
   width: 30%;
 }
 
-nav {
-  float: left;
-  width: 20%;
-  font-size: 1.3em;
-}
-
 footer {
   clear: both;
 }
@@ -80,6 +74,7 @@ aside {
   font-size: 1.4em;
 }
 
+a,
 a:hover,
 a:link,
 a:visited,
@@ -107,4 +102,47 @@ a[href^="http"] {
   background-repeat: no-repeat;
   padding-right: 19px;
   background-position: 100% 0;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul,
+ol {
+  margin: 1.6rem 0;
+}
+
+nav {
+  width: 20%;
+  float: left;
+  font-size: 2em;
+  margin-left: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+nav ul li {
+  width: 100%;
+  margin-right: 20px;
+  padding: 1em;
+  display: inline-block;
+  border: 2px solid #a66;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+nav ul li:hover {
+  background-color: azure;
+}
+
+nav ul li:active {
+  background-color: aliceblue;
+}
+
+nav ul li a {
+  text-decoration: none;
 }
